@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['0', '1', '2', '3']
+
+roboflow:
+  workspace: le-trung-hau
+  project: trash-xchpd
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/le-trung-hau/trash-xchpd/dataset/1
